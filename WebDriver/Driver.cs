@@ -22,7 +22,7 @@ namespace Twenty_fourth_lesson24.WebDriver
             }
             return driver;
         }
-        public static WebDriverWait SetDriver(IWebDriver driver, double time)
+        public static WebDriverWait WaitDriver(IWebDriver driver, double time)
         {
             if (wait == null)
             {
